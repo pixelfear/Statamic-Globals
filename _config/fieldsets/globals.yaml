@@ -1,0 +1,10 @@
+hide: true
+
+fields:
+
+  slug:
+    hide: yes
+  content:
+    type: hidden
+
+  # add your fields here...
