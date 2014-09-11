@@ -11,4 +11,13 @@ class Tasks_globals extends Tasks
 		return $content;
 	}
 
+
+	public function getFilename()
+	{
+		$content = $this->getContent();
+		$file = pathinfo($content['_file']);
+
+		return $file['filename'];
+	}
+
 }
