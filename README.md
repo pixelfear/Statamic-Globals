@@ -1,6 +1,8 @@
 # Globals
 > Simple Global Fields for Statamic
 
+![](screenshot.png)
+
 People have wanted a way to manage variables across their Statamic sites that don't fit into a particular page. These might include things like a Twitter account URL or a contact phone number.
 
 There is a technique people use which is to create a 'globals' or 'miscellaneous' content page with these fields, then you can reference them in your templates using `{{ get_content from="/globals" }}{{ twitter_url }}{{ /get_content }}`.
